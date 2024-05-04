@@ -4,7 +4,7 @@ from DQN_Agent import DQN_Agent
 import torch
 
 class Tester:
-    def __init__(self, env:env, player1, player2) -> None:
+    def __init__(self, env, player1, player2) -> None:
         self.env = env
         self.player1 = player1
         self.player2 = player2
